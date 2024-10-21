@@ -1,0 +1,115 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Main Content Area */
+#content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings Styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Links Styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Menu */
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    padding: 5px 10px;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #004080;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Lists Styling */
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Styling for Contact Information */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 0.9em;
+}
+
+/* Valid XHTML Icon */
+#content img {
+    margin-top: 20px;
+    width: 88px; /* Standard size for the XHTML validation icon */
+}
